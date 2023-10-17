@@ -1,0 +1,231 @@
+/*  Tags
+
+*/
+*{
+    margin: 0 auto;
+}
+.hide{
+    display: none;
+}
+#principal{
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+#topo{
+    display: flex;
+    width: 100%;
+    height: 130px;
+    float: left;
+    background-color: black;
+}
+#logo{
+    display: flex;
+    width: 20%;
+    float: left;
+}
+#menu{
+    display: flex;
+    width: 90%;
+    float: right;
+}
+#titulo{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#titulo p {
+    width: 98%;
+    height: 30%;
+    font-size: 110%;
+    text-align: center;
+    margin: 1%;
+    color:rgb(255, 255, 0);
+}
+#titulo h1{
+    width: 100%;
+    height: 60%;
+    font-size: 300%;
+    text-align: center;
+    color: rgb(255, 255, 0);
+}
+#divbutoes{
+    display: block;
+    width: 90%;
+    margin: 50px 0%;
+}
+#divbutoes a{
+    margin: 0%;
+    height: 30%;
+    width: 100%;
+}
+#btnmenu{
+    height: 100%;
+    margin: 0%;
+}
+
+
+/********************** Butoes gerais ************************/
+button{
+    height: 100%;
+    border-radius: 7px;
+    font-size: 110%;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 0);
+}
+button:hover{
+    border: 2px solid rgb(255, 255, 0);
+    color: rgb(255, 255, 0);
+    background-color: rgb(0, 0, 0);
+
+}
+#pgenacesso{
+    border: 2px solid rgb(255, 255, 0);
+    color: rgb(255, 255, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+/***************************  Corpo ************************************************/
+
+#corpo{
+}
+.paragrafoprincipal{
+    margin: 2%;
+    text-align: left;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paragrafoprincipal h1{
+    width: 90%;
+    height: 100%;
+    font-family: f;
+    font-size: 200%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+#paragrafo3 ul{
+    font-size: 110%;
+}
+
+/************************ produtos ****************************/
+#produtos{
+    text-align: center;
+    width: 100%;
+    margin: 6% 0%;
+}
+#produtos img{
+    width: 50%; 
+}
+#produtos img:hover{
+    width: 60%;
+}
+#nomeproduto{
+    text-align: center;
+    font-family: f;
+    font-size: 180%;
+}
+#btngeral{
+    display: flex;
+    text-align: center;
+}
+#btndetalhes{
+    width: 50%;
+}
+
+/********************* Detalhes ********************/
+#detalhesfechae{
+    text-align: right;
+}
+#detalhes1{
+    display: none;
+    width: 40%;
+    height: 100%;
+    border-radius: 2%;
+    background-color: rgb(0, 0, 0, 0.500);
+}
+#detalhes1 p{
+    font-family: f;
+    color: rgb(255, 255, 0);
+    margin: 2%;
+}
+#detalhes1 button{
+    margin: 1%;
+}
+#detalhes1 h1{
+    height: 8%;
+    color: rgb(255, 255, 255);
+}
+#detalhes1 li{
+    margin: 1% 2%;
+    color: rgb(255, 255, 255);
+}
+#detalhes2{
+    width: 100%;
+    height: 300px;
+    text-align: left;
+    margin: 3% 0%; 
+    background-color: rgb(0, 0, 0, 0.500);
+}
+/***************************  Rodape ************************************************/
+#rodape{
+    display: block;
+    width: 100%;
+    background-color: black;
+}
+#rodape img{
+    margin: 1%;
+    width: 15%;
+    height: 90%;
+}
+#rodape p{
+    color: rgba(255, 255, 0, 0.600);
+}
+#titulorodape{
+    width: 50%;
+    text-align: center;
+    color: rgb(255, 255, 0);
+}
+#inforacoesrodape{
+    display: flex;
+}
+#inforacoesrodape p{
+    text-align: center;
+    margin: 2%;
+}
+#inforacoesrodape a{
+    color: rgba(255, 255, 0, 0.600);
+}
+#redessociais{
+    display: list-item;
+    width: 50%;
+}
+#discord{
+    display: flex;
+    width: 30%;
+    margin: 0% 35%;
+}
+#discord a{
+    margin: 2%;
+}
+#instagram{
+    display: flex;
+    width: 30%;
+    margin: 0% 35%;
+}
+#instagram a{
+    margin: 2%;
+}
+#youtube{
+    display: flex;
+    width: 30%;
+    margin: 0% 35%;
+}
+#youtube a{
+    margin: 2%;
+}
+#colaboradores{
+    display: inline-block;
+    width: 50%;
+    margin: 0%;
+}
